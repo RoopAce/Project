@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: #333;
+}
+.btn_custom{
+    border-radius: 8px;
+    padding: 10px 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.bg_orange{
+    background-color: #EE7608;
+    color: #fff;
+    transition: transform 0.1s ease-in;
+}
+.bg_orange:hover {
+    color: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    transform: translateY(-8px);
+}
+
+.header .logobar .nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.FrontSection .img{
+    width: 100px;
+    height: 100px;
+}
